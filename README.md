@@ -9,17 +9,15 @@ There are similarities.
 
 In a RDB you have foreign keys that allow you to join tables together.
 
-  users
+users
+|id | username | password|
+|---+----------+---------|
+|1  | david    | 12345   |
 
-  id | username | password
-  ---+----------+---------
-  1  | david    | 12345
-
-  posts
-
-  id | title | content | user_id
-  ---+-------+---------+--------
-  1  | Short | In a wo | 1
+posts
+|id | title | content | user\_id|
+|---+-------+---------+--------|
+|1  | Short | In a wo | 1      |
 
 In OOP you have objects that have references to other objects.
 
