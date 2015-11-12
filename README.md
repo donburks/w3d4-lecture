@@ -10,11 +10,13 @@ There are similarities.
 In a RDB you have foreign keys that allow you to join tables together.
 
   users
+
   id | username | password
   ---+----------+---------
   1  | david    | 12345
 
   posts
+
   id | title | content | user_id
   ---+-------+---------+--------
   1  | Short | In a wo | 1
